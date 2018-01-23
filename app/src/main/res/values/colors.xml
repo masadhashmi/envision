@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBlack">#010102</color>
+
+    <color name="colorRedSmallStrip">#cf4134</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorGray">#a0a0a0</color>
+    <color name="colorTVGuideGray">#5e5e5e</color>
+    <color name="colorSeperatorGray">#918f8f</color>
+    <color name="colorShowNotNow_Gray">#4a4a4a</color>
+    <color name="colorLight_Gray">#e7e3e5</color>
+    <color name="colorOrange">#d76204</color>
+    <color name="colorGray_ShowDetailPage">#d2cece</color>
+
+    <color name="colorGrayListGuidePage_ListBG">#4b4a4c</color>
+    <color name="colorGrayListGuidePage_Dropdownbg">#2d2c2d</color>
+    <color name="colorGrayListGuidePage_BG">#3d3c3d</color>
+
+
+
+
+
+
+
+</resources>

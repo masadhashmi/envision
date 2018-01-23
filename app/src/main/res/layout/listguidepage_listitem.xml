@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dip"
+    android:background="@color/colorGrayListGuidePage_ListBG">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="60dip">
+    <LinearLayout
+        android:layout_width="150dip"
+        android:gravity="top|left"
+
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/TextView_ShowTime"
+            android:textSize="10dip"
+            android:textColor="@color/colorWhite"
+            android:text="00:00 PM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/TextView_ShowName"
+            android:textSize="12dip"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The Show Name"/>
+        <TextView
+            android:id="@+id/TextView_ShowDetail"
+            android:textSize="10dip"
+            android:textColor="@color/colorWhite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Detail"/>
+        <TextView
+            android:maxLength="90"
+            android:id="@+id/TextView_Description"
+            android:textSize="10dip"
+            android:textColor="@color/colorGray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Detail"/>
+
+    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

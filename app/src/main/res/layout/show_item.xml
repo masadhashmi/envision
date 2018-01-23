@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dip"
+    android:background="@drawable/show"
+    android:orientation="vertical"
+    android:id="@+id/LinearLayout_ShowContainer"
+    android:padding="5dip"
+    >
+
+    <TextView
+        android:layout_marginTop="5dip"
+        android:id="@+id/TextViewShowName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Abc news chanel"
+        android:textColor="@color/colorWhite"
+        android:textSize="10dip"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_marginTop="2dip"
+        android:id="@+id/TextViewShowType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/colorWhite"
+        android:textSize="8dip"
+         />
+
+    <TextView
+        android:id="@+id/Show_Time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dip"
+        android:text="Abc news chanel"
+        android:textColor="@color/colorWhite"
+        android:textSize="8dip" />
+
+</LinearLayout>
